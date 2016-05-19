@@ -1,4 +1,3 @@
-#!/usr/bin/env python 
 def wsgi_application(environ, start_response):
     body = ''
     for get_request in environ[QUERY_STRING].split('&'):
